@@ -1,0 +1,335 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+/* ─── LIGHT MODE ONLY ─────────────────────────────────────────────────────
+   This site has NO dark mode. color-scheme: light forces the browser
+   to always render native UI (scrollbars, inputs, selects) in light style
+   regardless of the visitor's OS or browser dark-mode setting.
+   ──────────────────────────────────────────────────────────────────────── */
+:root {
+  color-scheme: light;
+
+  /* ─── Brand identity tokens (Derived from avalin-logo.png #E1359F) ─── */
+  --color-brand-raw:       #E1359F; /* Exact logo magenta facet (micro-accents) */
+  --color-brand-950:       #1C0B16;
+  --color-brand-900:       #2E1424; /* Deep muted plum-pink */
+  --color-brand-800:       #4A1B38;
+  --color-brand-700:       #6D2452;
+  --color-brand-600:       #992668; /* Primary interactive button & link */
+  --color-brand-500:       #C23E89; /* Softened logo pink */
+  --color-brand-400:       #D96BA7;
+  --color-brand-300:       #E89BC4;
+  --color-brand-200:       #F4C7DD; /* Blush card border */
+  --color-brand-100:       #FBE6EF; /* Blush wash */
+  --color-brand-50:        #FDF4F8; /* Subtle blush tint */
+
+  /* Legacy primary aliases mapped to brand plum-pink (Zero Green) */
+  --color-primary-950:     #1C0B16;
+  --color-primary-900:     #2E1424;
+  --color-primary-800:     #4A1B38;
+  --color-primary-700:     #6D2452;
+  --color-primary-600:     #992668;
+  --color-primary-500:     #C23E89;
+  --color-primary-200:     #F4C7DD;
+  --color-primary-100:     #FBE6EF;
+  --color-primary-50:      #FDF4F8;
+
+  /* Secondary Accent — Muted Champagne / Rose-Gold */
+  --color-accent:          #8E5D38;
+  --color-accent-hover:    #6F4525;
+  --color-accent-light:    #FAF1E8;
+  --color-accent-champagne:#C99E7C;
+
+  /* Surface & Text */
+  --color-surface:         #FBFAF7;
+  --color-surface-alt:     #FFFFFF;
+  --color-surface-muted:   #F5F3EF;
+  --color-surface-blush:   #FDF4F8;
+  --color-text-primary:    #181516;
+  --color-text-secondary:  #5C5257;
+  --color-text-tertiary:   #70666C;
+  --color-border:          #EBE5E8;
+  --color-border-brand:    #F4C7DD;
+
+  /* Safety colors (Zero Green) */
+  --color-safe:              #32526B;
+  --color-safe-if-prescribed:#4A5A78;
+  --color-caution:           #B8791A;
+  --color-consult-doctor:    #5A4A78;
+  --color-unsafe:            #B4322A;
+
+  /* Icon tokens */
+  --icon-xs: 12px;
+  --icon-sm: 16px;
+  --icon-md: 24px;
+  --icon-lg: 32px;
+  --icon-xl: 48px;
+  --icon-feature: 80px;
+  --icon-hero: 120px;
+}
+
+/* Force light background — override any user-agent dark stylesheet */
+html, body {
+  background-color: #FBFAF7;
+  color: #1B1F1E;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+/* ─── Base resets ─────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ─── Typography base ─────────────────────────────────────────────────── */
+body {
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-feature-settings: 'kern' 1, 'liga' 1, 'tnum' 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-newsreader), Georgia, serif;
+}
+
+/* Tabular figures for numeric content */
+.tabular-nums,
+.metric-value {
+  font-variant-numeric: tabular-nums;
+}
+
+.composition-strength,
+.fact-value {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono), 'Menlo', monospace;
+}
+
+
+/* ─── Focus styles — visible, consistent brand pink outline ─── */
+:focus-visible {
+  outline: 2px solid var(--color-brand-600);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ─── Skip to content link ────────────────────────────────────────────── */
+.skip-link {
+  position: fixed;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  background: var(--color-brand-600);
+  color: white;
+  font-weight: 600;
+  border-radius: 0 0 6px 6px;
+  text-decoration: none;
+  transition: top 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: 0 4px 12px rgba(46, 20, 36, 0.15);
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* ─── Smooth scrolling (respects reduced-motion) ─────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* ─── Scroll-reveal utility ──────────────────────────────────────────── */
+@media (prefers-reduced-motion: no-preference) {
+  .reveal {
+    animation: fade-up 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ─── Product anchor nav scroll offset ───────────────────────────────── */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+/* ─── Prose styles for legal / compliance long-form pages ────────────── */
+.prose-legal {
+  max-width: 45rem;
+  line-height: 1.75;
+  color: var(--color-text-primary);
+}
+.prose-legal h2 {
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-brand-900);
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose-legal p {
+  margin-bottom: 1rem;
+}
+.prose-legal ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.prose-legal li {
+  margin-bottom: 0.5rem;
+}
+
+/* ─── Safety chip animation ──────────────────────────────────────────── */
+.safety-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.625rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* ─── Pharmaceutical Material Utilities ─────────────────────────────── */
+.glass-pharma {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 199, 221, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(46, 20, 36, 0.06);
+}
+
+.glass-plum {
+  background: rgba(46, 20, 36, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(244, 199, 221, 0.2);
+  box-shadow: 0 12px 40px 0 rgba(28, 11, 22, 0.25);
+}
+
+.foil-card {
+  position: relative;
+  overflow: hidden;
+}
+.foil-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.foil-card:hover::after {
+  opacity: 1;
+  animation: foil-sweep 1.8s ease-in-out infinite;
+}
+
+/* ─── Motion Accessibility (prefers-reduced-motion) ─────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-pulse,
+  .animate-spin,
+  .animate-fade-in,
+  .animate-fade-up,
+  .animate-float,
+  .animate-float-slow,
+  .animate-pulse-ring,
+  .animate-foil-sweep {
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .foil-card::after {
+    display: none !important;
+  }
+}
+
+/* ─── PRINT STYLESHEET (audit P0, Phase 2.1) ────────────────────────── */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm 15mm 15mm;
+  }
+
+  *, *::before, *::after {
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 10.5pt !important;
+    line-height: 1.45 !important;
+  }
+
+  /* Hide interactive widgets, navigation, iframes, and toolbars */
+  header nav,
+  header button,
+  footer,
+  .cookie-banner,
+  .back-to-top,
+  .skip-link,
+  .print-hidden,
+  iframe,
+  [role="dialog"] {
+    display: none !important;
+  }
+
+  /* Don't break cards, tables, sections across pages */
+  table, tr, td, th,
+  article, section,
+  .rounded-card,
+  [id="clinical-info"] > section,
+  [id="safety"],
+  [id="how-to-use"],
+  [id="how-it-works"],
+  [id="storage"],
+  [id="fact-box"] {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Remove drop shadows and border colors for crisp ink */
+  .shadow-card,
+  .shadow-sm,
+  .shadow-card-hover,
+  .shadow-header {
+    box-shadow: none !important;
+  }
+
+  /* Expand clean monochrome text */
+  a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  /* Safety chips print crisp text and clean borders */
+  .safety-chip {
+    border: 1px solid #d1d5db !important;
+  }
+}
+

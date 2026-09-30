@@ -1,0 +1,4 @@
+# Root ignore: track only website/ folder and root .gitignore
+/*
+!/website/
+!.gitignore
