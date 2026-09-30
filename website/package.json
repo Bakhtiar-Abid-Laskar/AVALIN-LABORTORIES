@@ -7,6 +7,7 @@
     "dev": "next dev",
     "generate:formulary": "npx tsx scripts/generate-formulary.ts",
     "build": "npx tsx scripts/generate-formulary.ts && next build",
+    "vercel-build": "npm run build",
     "start": "next start",
     "lint": "eslint",
     "lint:emoji": "node scripts/check-emoji.mjs",
