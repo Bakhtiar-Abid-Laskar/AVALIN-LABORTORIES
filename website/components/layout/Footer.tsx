@@ -144,12 +144,35 @@ export function Footer() {
 
         </div>
 
-        {/* Bottom Bar: Copyright & Disclaimer */}
-        <div className="mt-12 border-t border-brand-800/80 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-200/90">
-          <p>
-            &copy; {currentYear} {site.legalName}. All rights reserved.
-          </p>
-          <p className="text-center sm:text-right max-w-xl leading-relaxed text-brand-200/80">
+        {/* Bottom Bar: Copyright, Attribution & Disclaimer */}
+        <div className="mt-12 border-t border-brand-800/80 pt-8 flex flex-col lg:flex-row items-center justify-between gap-4 text-xs text-brand-200/90">
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+            <p>
+              &copy; {currentYear} {site.legalName}. All rights reserved.
+            </p>
+            <span className="hidden sm:inline text-brand-500/60 select-none">•</span>
+            <p className="text-brand-200/90">
+              Architected &amp; Engineered by{' '}
+              <a
+                href="https://www.nilakshithenterprise.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-accent-champagne underline underline-offset-4 decoration-brand-400/50 hover:decoration-accent-champagne font-medium transition-all"
+              >
+                Nilakshith Enterprise
+              </a>{' '}
+              &amp;{' '}
+              <a
+                href="https://bakhtiar-abid-laskar.github.io/bakhtiarabidlaskar.github.io/#about"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-accent-champagne underline underline-offset-4 decoration-brand-400/50 hover:decoration-accent-champagne font-medium transition-all"
+              >
+                Bakhtiar Abid Laskar
+              </a>
+            </p>
+          </div>
+          <p className="text-center lg:text-right max-w-lg leading-relaxed text-brand-200/70 text-[11px]">
             {footer.disclaimer}
           </p>
         </div>
