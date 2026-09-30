@@ -21,6 +21,7 @@ import { scroll, duration, ease } from '@/lib/motion'
 import { Icon } from '@/components/ui/Icon'
 import { Button } from '@/components/ui/Button'
 import { PhoneLink } from '@/components/ui/PhoneLink'
+import { ScrollProgress } from '@/components/layout/ScrollProgress'
 import { cn } from '@/lib/utils'
 
 type NavItem = {
@@ -214,6 +215,8 @@ export function Header() {
           <Icon name={mobileOpen ? 'close' : 'menu'} size={22} aria-hidden="true" />
         </button>
       </div>
+
+      <ScrollProgress />
 
       {/* Mobile Drawer Navigation */}
       <AnimatePresence>

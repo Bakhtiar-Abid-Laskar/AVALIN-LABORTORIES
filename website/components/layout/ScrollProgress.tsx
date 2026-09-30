@@ -24,7 +24,7 @@ export function ScrollProgress() {
 
   return (
     <div
-      className="fixed top-16 left-0 right-0 z-40 h-[2.5px] bg-transparent pointer-events-none print:hidden"
+      className="absolute top-[63px] left-0 right-0 z-10 h-[2.5px] bg-transparent pointer-events-none print:hidden overflow-hidden"
       aria-hidden="true"
     >
       <motion.div

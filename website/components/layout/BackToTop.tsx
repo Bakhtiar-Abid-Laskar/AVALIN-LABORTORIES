@@ -39,7 +39,7 @@ export function BackToTop() {
           aria-label="Back to top"
           className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom,0px))] right-4 sm:bottom-6 sm:right-6 z-50 h-11 w-11 rounded-full bg-primary-600 text-white shadow-card-hover hover:bg-primary-700 active:scale-95 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-600 focus-visible:ring-offset-2 flex items-center justify-center print:hidden"
         >
-          <Icon name="chevron-up" size={20} aria-hidden="true" />
+          <Icon name="arrow-up" size={20} className="stroke-[2.2]" aria-hidden="true" />
         </motion.button>
       )}
     </AnimatePresence>

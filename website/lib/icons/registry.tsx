@@ -27,6 +27,7 @@ export type IconName =
   | 'partnership'
   // Navigation / UI
   | 'arrow-right'
+  | 'arrow-up'
   | 'arrow-up-right'
   | 'chevron-down'
   | 'chevron-up'
@@ -142,6 +143,9 @@ const PATHS: Record<IconName, SvgChildren> = {
   'arrow-right': (
     <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
   ),
+  'arrow-up': (
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 19.5V4.5m-6 6 6-6 6 6" />
+  ),
   'arrow-up-right': (
     <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
   ),
@@ -149,7 +153,7 @@ const PATHS: Record<IconName, SvgChildren> = {
     <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
   ),
   'chevron-up': (
-    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5-7.5" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
   ),
   'chevron-right': (
     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />

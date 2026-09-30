@@ -6,7 +6,6 @@ import { Footer } from '@/components/layout/Footer'
 import { CookieBanner } from '@/components/layout/CookieBanner'
 import { BackToTop } from '@/components/layout/BackToTop'
 import { PrintFooter } from '@/components/layout/PrintFooter'
-import { ScrollProgress } from '@/components/layout/ScrollProgress'
 import { RouteTransition } from '@/components/layout/RouteTransition'
 import { site, organizationSchema } from '@/lib/site-config'
 
@@ -129,7 +128,6 @@ export default function RootLayout({
         </a>
 
         <Header />
-        <ScrollProgress />
 
         <main id="main-content" tabIndex={-1} className="flex-1 flex flex-col">
           <RouteTransition>

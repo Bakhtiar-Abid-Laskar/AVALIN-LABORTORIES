@@ -72,7 +72,7 @@
 html, body {
   background-color: #FBFAF7;
   color: #1B1F1E;
-  overflow-x: hidden;
+  overflow-x: clip;
   max-width: 100%;
 }
 
