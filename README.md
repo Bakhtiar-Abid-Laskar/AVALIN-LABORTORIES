@@ -1,343 +1,523 @@
-# 🧬 Avalin Laboratories — Corporate Pharmaceutical Website
+# AVALIN-LABORTORIES
 
 <p align="center">
-  <strong>A modern corporate website developed for Avalin Laboratories Pvt. Ltd.</strong>
+  <strong>Modern corporate web platform developed for Avalin Laboratories.</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.avalinlaboratories.com/">🌐 Live Website</a>
-  &nbsp; • &nbsp;
-  <a href="https://github.com/Bakhtiar-Abid-Laskar/AVALIN-LABORTORIES">💻 Source Code</a>
+  <a href="https://www.avalinlaboratories.com/">Live Website</a>
+  ·
+  <a href="https://github.com/Bakhtiar-Abid-Laskar/AVALIN-LABORTORIES">GitHub Repository</a>
+</p>
+
+<p align="center">
+
+![Status](https://img.shields.io/badge/Status-Live-success?style=flat-square)
+![Type](https://img.shields.io/badge/Project-Corporate%20Web%20Platform-blue?style=flat-square)
+![Repository](https://img.shields.io/badge/Repository-Public-lightgrey?style=flat-square)
+![Frontend](https://img.shields.io/badge/Frontend-Web-orange?style=flat-square)
+
 </p>
 
 ---
 
 ## 📌 Overview
 
-**Avalin Laboratories** is a corporate pharmaceutical website designed and developed for **Avalin Laboratories Pvt. Ltd.**, a pharmaceutical company headquartered in **Guwahati, Assam, India**.
+**AVALIN-LABORTORIES** is a professionally designed corporate web project developed for **Avalin Laboratories**.
 
-The website serves as a professional digital presence for the company, providing healthcare professionals, institutions, distributors, and other stakeholders with structured information about the organization, its pharmaceutical portfolio, therapeutic areas, regulatory practices, pharmacovigilance framework, and contact channels.
+The project focuses on creating a modern, responsive, and structured digital platform with an emphasis on:
 
-The project focuses on combining a **clean pharmaceutical visual identity**, intuitive navigation, responsive layouts, structured product information, and professional corporate communication.
+* Professional UI/UX
+* Responsive web design
+* Corporate branding
+* Structured content presentation
+* Product-oriented interfaces
+* Clear navigation
+* Mobile compatibility
+* Performance
+* Maintainable frontend architecture
 
-The live website is available at:
+The project is deployed as a live production website:
 
 **https://www.avalinlaboratories.com/**
 
+The source code is maintained in this repository:
+
+**https://github.com/Bakhtiar-Abid-Laskar/AVALIN-LABORTORIES**
+
 ---
 
-## 🎯 Project Objectives
+# 🎯 Project Objectives
 
-The primary objectives of the project are to:
+The main objective of the project is to provide a professional digital platform that represents a modern corporate organization online.
 
-* Establish a professional online presence for Avalin Laboratories.
-* Clearly communicate the company's identity, values, and pharmaceutical focus.
-* Present pharmaceutical products in a structured and accessible format.
-* Organize products according to their respective therapeutic areas.
-* Provide healthcare professionals and distributors with relevant information.
-* Communicate the company's approach to regulatory compliance.
-* Present the organization's pharmacovigilance and safety-monitoring approach.
-* Provide a dedicated channel for professional and business inquiries.
-* Deliver a responsive experience across desktop, tablet, and mobile devices.
-* Create a scalable website structure that can accommodate future products and content.
+The development focuses on:
+
+* Creating a polished corporate interface.
+* Establishing a consistent visual design system.
+* Providing intuitive navigation.
+* Organizing information into reusable website sections.
+* Creating responsive layouts for different screen sizes.
+* Maintaining a clean and scalable frontend structure.
+* Providing a foundation for future website functionality.
+* Delivering a production-ready web experience.
 
 ---
 
 # ✨ Key Features
 
-## 🏢 Corporate Presentation
+## 🎨 Modern Corporate UI
 
-A dedicated corporate presentation communicates the identity and positioning of Avalin Laboratories.
+The website uses a modern corporate visual language designed around:
 
-The website highlights the company's focus on providing dependable pharmaceutical products and its commitment to accessibility, quality, safety, and professional partnerships.
+* Clear typography
+* Structured layouts
+* Consistent spacing
+* Visual hierarchy
+* Professional components
+* Responsive sections
+* Strong calls-to-action
 
----
-
-## 💊 Product Portfolio
-
-The website includes a structured pharmaceutical product catalogue.
-
-Products are organized into therapeutic categories, making it easier for visitors to browse the company's portfolio.
-
-Current therapeutic areas represented on the website include:
-
-* Vitamins, Minerals & Nutrition
-* Gastrointestinal
-* Anti-infective
-* Pain Management & Neuro-CNS
-* Hepatoprotective
-* Probiotics
-
-The portfolio includes both **prescription and OTC-oriented products**, depending on the product classification.
-
----
-
-## 🧪 Therapeutic Area Organization
-
-Instead of presenting products as an unstructured list, the website organizes the portfolio around therapeutic areas.
-
-This provides a more intuitive browsing experience for:
-
-* Doctors
-* Healthcare professionals
-* Hospitals
-* Medical institutions
-* Distributors
-* Pharmaceutical trade partners
-
----
-
-## 📋 Product Information
-
-Individual product sections/pages provide structured information about pharmaceutical products, allowing visitors to understand:
-
-* Product name
-* Product category
-* Therapeutic area
-* Product formulation
-* Intended professional context
-* Relevant product information
-* External product references where applicable
-
----
-
-## 🛡️ Regulatory Compliance
-
-A dedicated regulatory-compliance section communicates the company's approach to:
-
-* Quality management
-* Manufacturing standards
-* Regulatory requirements
-* Product traceability
-* Manufacturing partnerships
-* Quality assurance
-
-The website communicates Avalin Laboratories' use of experienced manufacturing partners operating under established **cGMP-compliant practices**.
-
----
-
-## 🧬 Pharmacovigilance
-
-The website includes a dedicated pharmacovigilance section focused on pharmaceutical safety.
-
-The section communicates principles including:
-
-* Continuous safety monitoring
-* Adverse-event reporting
-* Safety information intake
-* Risk evaluation
-* Patient protection
-* Responsible pharmaceutical operations
-
-This gives healthcare professionals and other stakeholders a dedicated pathway for understanding the company's safety-monitoring approach.
-
----
-
-## 🤝 Professional Partnerships
-
-The website is designed not only as an informational corporate website but also as a professional communication platform.
-
-It provides contact pathways for:
-
-* Healthcare professionals
-* Hospitals and institutions
-* Medical distributors
-* Pharmaceutical trade partners
-* Other professional stakeholders
-
-The website specifically provides a trade/professional inquiry channel for business communication.
+The interface is designed to communicate professionalism without unnecessarily complex interactions.
 
 ---
 
 ## 📱 Responsive Design
 
-The website is designed with responsive web principles in mind so that its content can adapt to:
+The project is designed to adapt across different screen sizes.
 
-* 🖥️ Desktop computers
-* 💻 Laptops
-* 📱 Smartphones
-* 📲 Tablets
+Target environments include:
 
-Responsive layouts ensure that important elements such as:
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+Responsive considerations include:
 
 * Navigation
-* Product cards
-* Content sections
-* Calls-to-action
+* Hero sections
+* Cards
+* Content grids
+* Buttons
+* Images
 * Forms
-* Contact information
-
-remain accessible across different screen sizes.
-
----
-
-# 🧭 Website Structure
-
-The website is organized around the following primary sections:
-
-| Section                   | Purpose                                                           |
-| ------------------------- | ----------------------------------------------------------------- |
-| **Home**                  | Introduction to Avalin Laboratories and key corporate information |
-| **Who We Are**            | Company background, identity, and positioning                     |
-| **Our Products**          | Pharmaceutical product portfolio                                  |
-| **Regulatory Compliance** | Quality and regulatory information                                |
-| **Pharmacovigilance**     | Pharmaceutical safety and adverse-event reporting                 |
-| **Reach Us**              | Professional and business contact information                     |
-
-These sections are reflected in the live website's primary navigation.
+* Footer
+* Typography
+* Section spacing
 
 ---
 
-# 🏗️ Project Structure
+# 🧭 Website Architecture
 
-The repository is organized around the website implementation:
+The repository currently uses a relatively simple top-level structure:
 
 ```text
 AVALIN-LABORTORIES/
 │
 ├── website/
-│   ├── ...
-│   └── ...
+│   └── Website source
 │
 └── .gitignore
 ```
 
-> The `website/` directory contains the actual website implementation and its associated frontend assets.
+The `website/` directory contains the main implementation of the project.
 
-As the project evolves, additional assets, stylesheets, scripts, product data, and supporting resources can be organized within the website directory.
+Keeping the website implementation inside its own directory makes it possible to expand the repository later with additional project resources such as:
 
----
-
-# 🛠️ Technology Stack
-
-The project is implemented as a web-based corporate website using standard web technologies.
-
-### Frontend
-
-* **HTML5** — Semantic website structure
-* **CSS3** — Layout, styling, responsiveness, and visual presentation
-* **JavaScript** — Client-side interactions and dynamic behaviour
-
-### Development
-
-* Git
-* GitHub
-* Modern web browsers
-* Local development server / static hosting environment
-
-The project is structured to remain lightweight and maintainable without unnecessarily introducing a large application framework for a primarily corporate/informational website.
+```text
+AVALIN-LABORTORIES/
+│
+├── website/
+│
+├── docs/
+│
+├── scripts/
+│
+├── tests/
+│
+└── README.md
+```
 
 ---
 
-# 🎨 Design Philosophy
+# 🏗️ Project Structure
 
-The visual direction of the website follows a modern pharmaceutical/corporate aesthetic.
+## `website/`
 
-The design prioritizes:
+The primary application directory.
 
-### Clarity
+This directory contains the frontend implementation and associated website assets.
 
-Important medical and corporate information is presented in a structured hierarchy.
+Depending on the current implementation, this may include:
 
-### Professionalism
+```text
+website/
+│
+├── HTML / page files
+├── CSS
+├── JavaScript
+├── Images
+├── Fonts
+└── Other frontend assets
+```
 
-Typography, spacing, imagery, cards, and content organization are designed to communicate credibility and trust.
+The `website` directory should be treated as the primary source of the deployed application.
 
-### Accessibility
+---
 
-Navigation and important information are presented in a way that aims to remain understandable and usable across devices.
+## `.gitignore`
 
-### Consistency
+The repository includes a `.gitignore` file to prevent unnecessary or environment-specific files from being committed to version control.
 
-Reusable visual patterns are used across:
+Typical ignored resources may include:
 
-* Product cards
-* Information sections
+* Local configuration
+* Build output
+* Temporary files
+* IDE metadata
+* Environment files
+* Dependency directories
+
+---
+
+# 🎨 UI / UX Design
+
+The project follows a corporate-oriented UI/UX approach.
+
+## Visual Hierarchy
+
+Content is organized using:
+
+* Headings
+* Supporting text
+* Cards
+* Buttons
+* Sections
+* Visual elements
+
+This allows users to scan information without navigating through unnecessarily dense layouts.
+
+---
+
+## Consistent Components
+
+The interface aims to maintain consistency across:
+
 * Buttons
 * Navigation
-* Content blocks
-* Calls-to-action
+* Cards
+* Headings
+* Section layouts
+* Forms
+* Footer elements
 
-### Scalability
-
-The design allows additional pharmaceutical products and therapeutic categories to be added without fundamentally changing the website architecture.
-
----
-
-# 🔬 Product Portfolio
-
-The website currently communicates a portfolio spanning six major therapeutic areas.
-
-### 1. Vitamins, Minerals & Nutrition
-
-Products addressing nutritional requirements including areas such as:
-
-* Calcium
-* Vitamin D
-* Vitamin B12
-* Essential micronutrients
-
-### 2. Gastrointestinal
-
-Products focused on gastrointestinal and digestive-health requirements, including areas such as:
-
-* Acid reflux
-* GERD
-* Digestive enzyme support
-
-### 3. Anti-infective
-
-The anti-infective portfolio includes antibiotic formulations designed for clinical use across relevant bacterial infections.
-
-### 4. Pain Management & Neuro-CNS
-
-The portfolio includes products addressing:
-
-* Acute pain management
-* Neuropathic pain
-* Neuro-CNS related therapeutic requirements
-
-### 5. Hepatoprotective
-
-Products addressing liver-related therapeutic requirements, including formulations involving ursodeoxycholic acid.
-
-### 6. Probiotics
-
-The portfolio includes probiotic formulations designed to support gastrointestinal health and the gut microbiome.
-
-The exact product catalogue and product descriptions are maintained on the live website.
+Consistent components reduce visual fragmentation and make future development easier.
 
 ---
 
-# 🌐 Live Website
+## Responsive Layout System
 
-Visit the deployed website:
+Layouts are designed to transition between different viewport sizes rather than relying on fixed desktop dimensions.
 
-**https://www.avalinlaboratories.com/**
+Conceptually:
 
-The live website provides the complete public-facing implementation, including the company's corporate information, pharmaceutical portfolio, compliance information, pharmacovigilance information, and contact channels.
+```text
+Desktop
+   │
+   ▼
+Large responsive layout
+   │
+   ▼
+Tablet layout
+   │
+   ▼
+Mobile layout
+```
 
 ---
 
-# 💻 Running the Project Locally
+# 📱 Responsive Design Strategy
 
-## 1. Clone the Repository
+Responsive implementation should account for:
+
+### Desktop
+
+```text
+1920 × 1080
+1440 × 900
+1366 × 768
+```
+
+### Tablet
+
+```text
+1024 × 768
+768 × 1024
+```
+
+### Mobile
+
+```text
+430 × 932
+390 × 844
+375 × 812
+```
+
+Important elements to test include:
+
+* Navigation
+* Images
+* Cards
+* Buttons
+* Text wrapping
+* Section spacing
+* Forms
+* Footer
+* Horizontal overflow
+
+---
+
+# 🧩 Frontend Architecture
+
+The project is structured as a frontend-focused corporate website.
+
+A conceptual architecture is:
+
+```text
+Browser
+   │
+   ▼
+Website Interface
+   │
+   ├── Navigation
+   ├── Page Sections
+   ├── Components
+   ├── Forms
+   └── Interactive Elements
+          │
+          ▼
+     Static / Client Logic
+```
+
+This architecture keeps the implementation lightweight while leaving room for future backend integration.
+
+---
+
+# 🔌 Extensibility
+
+The project can be extended with additional functionality without requiring a complete redesign of the existing frontend.
+
+Potential future integrations include:
+
+* Content management
+* Product management
+* Search
+* Filtering
+* Contact forms
+* Enquiry management
+* Authentication
+* Administrative dashboard
+* Analytics
+* API integration
+* Database-backed content
+
+A possible future architecture could evolve toward:
+
+```text
+Frontend
+    │
+    ▼
+API Layer
+    │
+    ├── Authentication
+    ├── Content
+    ├── Products
+    ├── Enquiries
+    └── Administration
+    │
+    ▼
+Database
+```
+
+---
+
+# ⚡ Performance
+
+Performance is an important consideration for a public corporate website.
+
+Recommended optimization practices include:
+
+* Image compression
+* WebP/AVIF assets where appropriate
+* Lazy loading
+* Minified CSS
+* Minified JavaScript
+* Reduced third-party dependencies
+* Browser caching
+* Efficient font loading
+* Optimized asset delivery
+* Avoiding unnecessary JavaScript execution
+
+---
+
+# 🔎 SEO
+
+The website can be optimized for search engines through:
+
+* Semantic HTML
+* Descriptive page titles
+* Meta descriptions
+* Canonical URLs
+* Open Graph metadata
+* Structured data
+* Descriptive image `alt` attributes
+* Proper heading hierarchy
+* Internal linking
+* XML sitemap
+* `robots.txt`
+
+For a corporate website, technical SEO should be maintained alongside visual development.
+
+---
+
+# ♿ Accessibility
+
+The project should follow accessibility-oriented development practices.
+
+Recommended practices include:
+
+* Semantic HTML5
+* Proper heading hierarchy
+* Keyboard navigation
+* Visible focus states
+* Descriptive link text
+* Accessible form labels
+* Meaningful image `alt` attributes
+* Sufficient color contrast
+* Responsive typography
+* Reduced reliance on hover-only interactions
+
+---
+
+# 🔐 Security
+
+Even though the current project is primarily a corporate web platform, production security should remain a priority.
+
+Recommended practices include:
+
+### Environment Variables
+
+Never commit sensitive credentials.
+
+```text
+.env
+.env.local
+.env.production
+```
+
+should remain outside source control when applicable.
+
+### Input Validation
+
+Any future forms should validate and sanitize user input.
+
+### External Services
+
+API keys and private credentials should never be exposed in client-side JavaScript.
+
+### HTTPS
+
+The production website should always be served through HTTPS.
+
+### Dependencies
+
+Third-party dependencies should be regularly reviewed and updated.
+
+---
+
+# 🧪 Testing
+
+Before deploying changes, the project should be tested across multiple areas.
+
+## Functional Testing
+
+Verify:
+
+* Navigation
+* Buttons
+* Links
+* Forms
+* Interactive components
+* External links
+* Mobile navigation
+
+---
+
+## Responsive Testing
+
+Test the application across:
+
+* Desktop
+* Tablet
+* Mobile
+
+---
+
+## Browser Testing
+
+Recommended browsers:
+
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
+* Safari
+
+---
+
+## Visual Testing
+
+Check:
+
+* Typography
+* Spacing
+* Images
+* Alignment
+* Cards
+* Buttons
+* Responsive breakpoints
+* Section transitions
+
+---
+
+# 🚀 Local Development
+
+## Prerequisites
+
+Depending on the current implementation, development may require only a modern browser and a local web server.
+
+Recommended tools:
+
+* Git
+* Visual Studio Code
+* Modern web browser
+* Live Server or equivalent local HTTP server
+
+---
+
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Bakhtiar-Abid-Laskar/AVALIN-LABORTORIES.git
 ```
 
----
-
-## 2. Navigate Into the Project
+Navigate into the repository:
 
 ```bash
 cd AVALIN-LABORTORIES
 ```
 
----
-
-## 3. Open the Website Directory
+Navigate to the website:
 
 ```bash
 cd website
@@ -345,13 +525,21 @@ cd website
 
 ---
 
-## 4. Run Locally
+# 🖥️ Running Locally
 
-If the project is a static frontend, it can be opened directly in a modern browser.
+If the project is a static frontend, it can be opened through a local development server.
 
-Alternatively, using **VS Code Live Server** is recommended during development.
+For example, with VS Code:
 
-You can also use a simple local HTTP server:
+```text
+Open website/
+      ↓
+Install Live Server
+      ↓
+Right Click → Open with Live Server
+```
+
+Alternatively, if Python is installed:
 
 ```bash
 python -m http.server 8000
@@ -367,288 +555,357 @@ http://localhost:8000
 
 # 🔄 Development Workflow
 
-A typical development workflow for this project is:
+A recommended workflow is:
 
 ```text
-Plan
-  ↓
-Design
-  ↓
-HTML Structure
-  ↓
-CSS Styling
-  ↓
-JavaScript Interactions
-  ↓
+Create Branch
+     │
+     ▼
+Develop Feature
+     │
+     ▼
+Test Locally
+     │
+     ▼
 Responsive Testing
-  ↓
-Cross-Browser Testing
-  ↓
-Deployment
+     │
+     ▼
+Browser Testing
+     │
+     ▼
+Performance Check
+     │
+     ▼
+Commit
+     │
+     ▼
+Push
+     │
+     ▼
+Pull Request
+     │
+     ▼
+Deploy
 ```
 
-Before deployment, verify the website on multiple viewport sizes and test all navigation and external links.
-
 ---
 
-# 📱 Responsive Testing Checklist
+# 🌿 Git Workflow
 
-When making future changes, test the website at minimum on:
-
-### Desktop
-
-* 1920 × 1080
-* 1440 × 900
-* 1366 × 768
-
-### Tablet
-
-* 1024 × 768
-* 768 × 1024
-
-### Mobile
-
-* 430 × 932
-* 390 × 844
-* 375 × 812
-
-Important elements to verify:
-
-* Navigation
-* Hero sections
-* Product cards
-* Images
-* Buttons
-* Forms
-* Typography
-* Footer
-* Horizontal overflow
-* Touch interaction
-
----
-
-# 🔐 Security & Privacy Considerations
-
-Because this project represents a pharmaceutical organization, future development should prioritize responsible handling of information.
-
-Recommended practices include:
-
-* Never commit passwords, API keys, or private credentials.
-* Keep sensitive configuration outside publicly accessible source files.
-* Validate and sanitize any user-submitted data.
-* Use HTTPS in production.
-* Keep third-party dependencies updated.
-* Avoid exposing internal infrastructure information.
-* Implement appropriate spam protection on public forms.
-* Protect any future administrative interfaces with proper authentication and authorization.
-
-Sensitive production credentials should **never** be stored in this repository.
-
----
-
-# 🚀 Future Improvements
-
-Potential future improvements include:
-
-* [ ] Advanced product search
-* [ ] Product filtering by therapeutic category
-* [ ] Improved product detail pages
-* [ ] Downloadable product information/monographs
-* [ ] Healthcare-professional portal
-* [ ] Distributor/partner portal
-* [ ] Online adverse-event reporting workflow
-* [ ] CMS-based content management
-* [ ] Product database integration
-* [ ] Structured SEO enhancements
-* [ ] Schema.org pharmaceutical/company markup
-* [ ] XML sitemap automation
-* [ ] Improved accessibility compliance
-* [ ] Performance optimization
-* [ ] Image optimization and next-generation formats
-* [ ] Analytics and conversion tracking
-* [ ] Automated deployment through CI/CD
-
----
-
-# 🔎 SEO Considerations
-
-The project can be further optimized for search engines through:
-
-* Semantic HTML
-* Descriptive page titles
-* Meta descriptions
-* Open Graph metadata
-* Twitter/X metadata
-* Canonical URLs
-* XML sitemap
-* `robots.txt`
-* Structured data
-* Organization schema
-* Product schema where appropriate
-* Descriptive image `alt` attributes
-* Internal linking
-* Optimized page performance
-
-Particular attention should be given to pharmaceutical product pages because structured and accurate metadata can improve discoverability while keeping medical information appropriately presented.
-
----
-
-# ⚡ Performance Considerations
-
-Future performance optimization can include:
-
-* Compressing images
-* Using WebP/AVIF where appropriate
-* Lazy-loading non-critical images
-* Minifying CSS and JavaScript
-* Removing unused assets
-* Reducing third-party dependencies
-* Using browser caching
-* Optimizing font loading
-* Improving Core Web Vitals
-* Reducing cumulative layout shift
-
----
-
-# ♿ Accessibility
-
-Accessibility should remain an important part of future development.
-
-Recommended practices include:
-
-* Semantic HTML5
-* Proper heading hierarchy
-* Descriptive link text
-* Keyboard-accessible navigation
-* Visible focus states
-* Meaningful `alt` text
-* Sufficient color contrast
-* Accessible form labels
-* Appropriate ARIA attributes where necessary
-* Responsive text sizing
-
----
-
-# 🧪 Testing
-
-Before deploying changes, test:
-
-### Functional
-
-* Navigation links
-* Product links
-* Contact links
-* External links
-* Forms
-* Buttons
-* Mobile navigation
-
-### Visual
-
-* Desktop layouts
-* Tablet layouts
-* Mobile layouts
-* Image rendering
-* Typography
-* Spacing
-* Animations
-
-### Browser
-
-* Google Chrome
-* Mozilla Firefox
-* Microsoft Edge
-* Safari
-
----
-
-# 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-To contribute:
-
-1. Fork the repository.
-2. Create a feature branch.
+Create a feature branch:
 
 ```bash
-git checkout -b feature/your-feature
+git checkout -b feature/feature-name
 ```
 
-3. Make your changes.
-4. Test the website thoroughly.
-5. Commit your changes.
+Stage changes:
 
 ```bash
-git commit -m "Add: your feature description"
+git add .
 ```
 
-6. Push the branch.
+Commit:
 
 ```bash
-git push origin feature/your-feature
+git commit -m "feat: add feature"
 ```
 
-7. Open a Pull Request.
+Push:
 
-For major changes, discuss the proposed implementation before making substantial architectural changes.
+```bash
+git push origin feature/feature-name
+```
+
+Then create a Pull Request on GitHub.
 
 ---
 
-# 📄 License
+# 📝 Commit Convention
 
-The licensing terms for this project should be defined by the project owner.
+Recommended commit prefixes:
 
-If this repository is intended to remain proprietary, all rights to the website design, implementation, branding, content, pharmaceutical product information, imagery, and other project assets should be treated as reserved unless explicitly licensed otherwise.
+```text
+feat:
+```
+
+New functionality.
+
+```text
+fix:
+```
+
+Bug fixes.
+
+```text
+refactor:
+```
+
+Code restructuring without changing intended functionality.
+
+```text
+style:
+```
+
+Visual or formatting changes.
+
+```text
+perf:
+```
+
+Performance improvements.
+
+```text
+docs:
+```
+
+Documentation changes.
+
+```text
+security:
+```
+
+Security-related improvements.
+
+Examples:
+
+```text
+feat: add responsive navigation
+```
+
+```text
+fix: resolve mobile layout overflow
+```
+
+```text
+style: improve product card spacing
+```
+
+```text
+perf: optimize image loading
+```
+
+---
+
+# 📊 Production Considerations
+
+Before deploying changes to production, verify:
+
+### Frontend
+
+* [ ] All pages load correctly
+* [ ] Navigation works
+* [ ] Images load correctly
+* [ ] No broken links
+* [ ] No horizontal overflow
+* [ ] Mobile layout works
+* [ ] Desktop layout works
+
+### Performance
+
+* [ ] Images optimized
+* [ ] CSS optimized
+* [ ] JavaScript optimized
+* [ ] Fonts optimized
+* [ ] Unnecessary dependencies removed
+
+### SEO
+
+* [ ] Page titles
+* [ ] Meta descriptions
+* [ ] Heading hierarchy
+* [ ] Alt text
+* [ ] Canonical URLs
+* [ ] Sitemap
+* [ ] Robots configuration
+
+### Security
+
+* [ ] No secrets committed
+* [ ] HTTPS enabled
+* [ ] Forms validated
+* [ ] Dependencies reviewed
+
+---
+
+# 🌐 Deployment
+
+The project is deployed as a live website:
+
+**https://www.avalinlaboratories.com/**
+
+The deployment represents the production version of the project, while this repository contains its source implementation.
+
+A typical deployment flow is:
+
+```text
+GitHub Repository
+       │
+       ▼
+Build / Validation
+       │
+       ▼
+Hosting Platform
+       │
+       ▼
+Production Domain
+       │
+       ▼
+avalinlaboratories.com
+```
+
+---
+
+# 📈 Future Roadmap
+
+Possible future improvements include:
+
+* [ ] Advanced content management
+* [ ] Product search
+* [ ] Product filtering
+* [ ] Dynamic content management
+* [ ] Admin dashboard
+* [ ] Contact/enquiry management
+* [ ] Backend API
+* [ ] Database integration
+* [ ] Authentication
+* [ ] Analytics dashboard
+* [ ] Automated deployment
+* [ ] Automated testing
+* [ ] CI/CD pipeline
+* [ ] Advanced SEO automation
+* [ ] Performance monitoring
+* [ ] Accessibility auditing
+
+---
+
+# 🏗️ Potential Future Architecture
+
+As the platform grows, the current frontend-focused structure could evolve into:
+
+```text
+AVALIN-LABORTORIES/
+│
+├── apps/
+│   ├── web/
+│   └── admin/
+│
+├── packages/
+│   ├── ui/
+│   ├── types/
+│   └── utilities/
+│
+├── api/
+│
+├── database/
+│
+├── scripts/
+│
+├── tests/
+│
+├── docs/
+│
+└── README.md
+```
+
+This would allow the project to evolve from a primarily frontend website into a complete corporate web platform.
+
+---
+
+# 📚 Documentation
+
+As the project grows, documentation can be organized into:
+
+```text
+docs/
+│
+├── architecture/
+├── development/
+├── deployment/
+├── security/
+├── testing/
+└── design/
+```
+
+This helps future developers understand the system without needing to inspect every source file.
+
+---
+
+# 📌 Repository Information
+
+| Property   | Details                |
+| ---------- | ---------------------- |
+| Project    | AVALIN-LABORTORIES     |
+| Type       | Corporate Web Platform |
+| Repository | GitHub                 |
+| Branch     | `main`                 |
+| Deployment | Live                   |
+| Website    | avalinlaboratories.com |
+| Developer  | Bakhtiar Abid Laskar   |
+
+The GitHub repository is currently public and contains the main `website/` directory along with `.gitignore`. GitHub currently reports 5 commits and 1 star.
 
 ---
 
 # 👨‍💻 Developer
 
-### Bakhtiar Abid Laskar
+## Bakhtiar Abid Laskar
 
-Web Developer & Software Developer
+**Web Developer & Software Developer**
 
 GitHub:
+
 https://github.com/Bakhtiar-Abid-Laskar
 
 ---
 
-# 🏢 Client / Organization
+# 🏆 Project Highlights
 
-### Avalin Laboratories Pvt. Ltd.
+This project demonstrates practical experience in:
 
-**Headquarters:**
-Guwahati, Assam, India
+* Corporate website development
+* Responsive web design
+* UI/UX implementation
+* Frontend architecture
+* Component-oriented design
+* Cross-browser compatibility
+* Mobile-first development
+* Performance optimization
+* SEO implementation
+* Accessibility considerations
+* Production deployment
+* Git/GitHub workflow
+* Real-world client project development
 
-**Website:**
+---
+
+# 📄 License
+
+This repository contains software and project assets developed for a real-world project.
+
+Unless an explicit open-source license is provided, the source code, branding, visual assets, content, and other project materials should not be assumed to be freely reusable.
+
+For commercial reuse, redistribution, or modification, appropriate authorization should be obtained from the relevant rights holders.
+
+---
+
+# 🌐 Links
+
+**Live Website**
+
 https://www.avalinlaboratories.com/
 
-**Email:**
-[avalin.laboratories@gmail.com](mailto:avalin.laboratories@gmail.com)
+**GitHub Repository**
 
-**Phone:**
-+91 70023 22615
-
-**Address:**
-ASEB Road, Opp. ASTC Workshop, Ulubari, Guwahati, Assam 781007, India
-
-The contact information above is published on the organization's live website.
-
----
-
-# 🌟 Project Status
-
-**Status:** 🟢 Live
-
-The website is publicly deployed and accessible through the official Avalin Laboratories domain.
+https://github.com/Bakhtiar-Abid-Laskar/AVALIN-LABORTORIES
 
 ---
 
 <p align="center">
-  <strong>Built with attention to design, usability, performance, and professional presentation.</strong>
-</p>
 
-<p align="center">
-  © Avalin Laboratories Pvt. Ltd.
+<strong>Designed & Developed by Bakhtiar Abid Laskar</strong>
+
+<br>
+
+<sub>Building modern, responsive and production-ready web experiences.</sub>
+
 </p>
